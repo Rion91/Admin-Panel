@@ -22,7 +22,6 @@
 
 <body id="body-pd" class="body-pd {{ $theme . '-theme' }}">
 <div>
-
     <header class="header shadow-sm body-pd" id="header">
         <div class="header_toggle">
             <i class="fa-solid fa-bars" id="header-toggle"></i>
