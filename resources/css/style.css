@@ -22,6 +22,12 @@ body {
     transition: .5s;
 }
 
+body.authentication-bg {
+    background-image: url("/public/images/bg-pattern-light.svg");
+    background-size: cover;
+    background-position: top center;
+}
+
 a {
     text-decoration: none !important;
 }
