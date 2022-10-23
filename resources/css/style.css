@@ -15,20 +15,11 @@
 }
 
 body {
-    color: var(--dark);
-    background-color: var(--white-color);
     position: relative;
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     transition: .5s;
-}
-
-.dark-theme {
-    color: var(--first-color);
-    background-color: var(--dark);
-
-
 }
 
 a {

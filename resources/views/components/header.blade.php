@@ -4,8 +4,6 @@
     </div>
 
     <div class="d-flex">
-        <i id="theme-toggle" class="icon-{{ $theme == 'dark' ? 'sun' : 'moon' }}"></i>
-
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
