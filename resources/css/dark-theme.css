@@ -1,0 +1,42 @@
+:root {
+    --white-color: #ffffff;
+    --side-bar-color: #3A444E;
+    --header-color: #424d58;
+    --body-color: #343A3F;
+}
+
+#theme-toggle {
+    width: 2rem;
+    height: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: rgba(226, 232, 240, 0);
+    background-color: #05668d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.dark-theme {
+    color: var(--first-color);
+    background-color: var(--body-color);
+}
+
+/*.dark-theme .l-navbar {*/
+/*    color: var(--white-color);*/
+/*    background-color: var(--dark);*/
+/*}*/
+
+.dark-theme .header {
+    color: var(--white-color);
+    background-color: var(--header-color);
+}
+
+.dark-theme .card {
+    color: var(--white-color);
+    background-color: var(--header-color);
+}

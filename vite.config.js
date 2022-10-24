@@ -7,6 +7,7 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/css/style.css',
+                'resources/css/dark-theme.css',
                 'resources/css/btn.css',
                 'resources/js/script.js',
                 'resources/sass/app.scss',
