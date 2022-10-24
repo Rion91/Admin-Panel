@@ -54,3 +54,16 @@
     color: var(--white-color);
     background-color: var(--side-bar-color);
 }
+
+.dark-theme .apexcharts-menu-item {
+    color: var(--dark);
+}
+.dark-theme .apexcharts-canvas .apexcharts-text.apexcharts-xaxis-label,
+.dark-theme .apexcharts-canvas .apexcharts-text.apexcharts-yaxis-label,
+.dark-theme .apexcharts-canvas .apexcharts-title-text {
+    fill: var(--white-color);
+}
+
+.dark-theme .apexcharts-canvas .apexcharts-legend-text {
+    color: #e0e6ed!important;
+}
