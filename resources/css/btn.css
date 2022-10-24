@@ -8,15 +8,12 @@
     --info-hover: #0777d0;
     --success: #1abc9c;
     --success-hover: #147b66;
-    --warning: #ffc107;
+    --warning: #e2a03f;
     --warning-hover: #f7d067;
     --danger: #e7515a;
     --danger-hover: #ee6363;
     --secondary: #805dca;
     --secondary-hover: #5a31b1;
-
-    --box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
-    --box-shadow-hover: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 20%);
 }
 
 .btn {
@@ -27,7 +24,7 @@
     color: var(--white-color);
     background-color: var(--primary) !important;
     border-color: var(--primary) !important;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 10px 20px -10px #4361ee;
 }
 
 .btn-primary:hover {
@@ -39,7 +36,7 @@
     color: var(--white-color) !important;
     background-color: var(--info) !important;
     border-color: var(--info) !important;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 10px 20px -10px #2196f3;
 }
 
 .btn-info:hover {
@@ -51,7 +48,7 @@
     color: var(--white-color);
     background-color: var(--success) !important;
     border-color: var(--success) !important;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 10px 20px -10px #1abc9c;
 }
 
 .btn-success:hover {
@@ -63,7 +60,7 @@
     color: var(--white-color) !important;
     background-color: var(--warning) !important;
     border-color: var(--warning) !important;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 10px 20px -10px #e2a03f;
 }
 
 .btn-warning:hover {
@@ -75,7 +72,7 @@
     color: var(--white-color) !important;
     background-color: var(--danger) !important;
     border-color: var(--danger) !important;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 10px 20px -10px #e7515a;
 }
 
 .btn-danger:hover {
@@ -87,7 +84,7 @@
     color: var(--white-color) !important;
     background-color: var(--secondary) !important;
     border-color: var(--secondary) !important;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 10px 20px -10px #805dca;
 }
 
 .btn-secondary:hover {
@@ -99,7 +96,7 @@
     color: var(--white-color) !important;
     background-color: var(--dark) !important;
     border-color: var(--dark) !important;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 10px 20px -10px #3b3f5c;
 }
 
 .btn-dark:hover {
