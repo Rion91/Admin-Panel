@@ -28,7 +28,7 @@
 
 .dark-theme .l-navbar {
     color: var(--white-color);
-    background-color: #043346;
+    background-color: var(--first-color);
 }
 
 .dark-theme .header {
@@ -39,4 +39,13 @@
 .dark-theme .card {
     color: var(--white-color);
     background-color: var(--header-color);
+}
+
+.dark-theme .table {
+    color: var(--white-color);
+    background-color: var(--header-color);
+}
+.dark-theme .table-active {
+    color: var(--white-color);
+    background-color: var(--side-bar-color);
 }

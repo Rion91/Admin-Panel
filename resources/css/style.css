@@ -8,6 +8,8 @@
     --normal-font-size: 1rem;
     --z-fixed: 100;
     --dark: #4b4b48;
+    --box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    --box-shadow-hover: 0 1px 1px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 50%);
 }
 
 *, ::before, ::after {
@@ -28,6 +30,11 @@ body {
 
 .card {
     border-radius: 0.25rem !important;
+    border: 0 !important;
+}
+
+.card:hover {
+    box-shadow: var(--box-shadow) !important;
 }
 
 /*background image for login page*/
@@ -269,3 +276,44 @@ a {
 .badge-dark {
     background-color: var(--dark) !important;
 }
+
+/*end badge*/
+
+/*test color change*/
+.text-color-primary {
+    color: var(--primary) !important;
+}
+
+.text-color-info {
+    background-color: var(--info) !important;
+}
+
+.text-color-success {
+    color: var(--success) !important;
+}
+
+.text-color-warning {
+    color: var(--warning) !important;
+}
+
+.text-color-danger {
+    color: var(--danger) !important;
+}
+
+.text-color-secondary {
+    color: var(--secondary) !important;
+}
+
+.text-color-dark {
+    color: var(--dark) !important;
+}
+
+/*end test color change*/
+
+/*checkbox switch*/
+.form-check-input:checked {
+    background-color: var(--success) !important;
+    border-color: var(--success) !important;
+}
+
+/*end checkbox switch*/
