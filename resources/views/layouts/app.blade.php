@@ -15,7 +15,7 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
-    @vite(['resources/css/style.css', 'resources/css/app.css', 'resources/css/btn.css'])
+    @vite(['resources/css/style.css', 'resources/css/app.css', 'resources/css/btn.css', 'resources/css/dark-theme.css'])
     @vite(['resources/js/app.js', 'resources/js/script.js'])
 
 </head>
@@ -26,9 +26,12 @@
         <div class="header_toggle">
             <i class="fa-solid fa-bars" id="header-toggle"></i>
         </div>
+        
+        <div class="d-flex align-items-center">
+            <div class="navbar-nav px-3">
 
-        <i id="theme-toggle" class="fa-solid fa-{{ $theme == 'dark' ? 'sun' : 'moon' }}"></i>
-        <div class="d-flex">
+                <i id="theme-toggle" class="fa-solid fa-{{ $theme == 'dark' ? 'sun' : 'moon' }}"></i>
+            </div>
 
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
