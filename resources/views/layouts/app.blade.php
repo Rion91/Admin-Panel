@@ -67,6 +67,7 @@
     </main>
 </div>
 
+@stack('script')
 <script>
     var toggle_icon = document.getElementById('theme-toggle');
     var body = document.getElementsByTagName('body')[0];

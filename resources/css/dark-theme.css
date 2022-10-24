@@ -49,3 +49,8 @@
     color: var(--white-color);
     background-color: var(--side-bar-color);
 }
+
+.dark-theme #myChart {
+    color: var(--white-color);
+    background-color: var(--side-bar-color);
+}
