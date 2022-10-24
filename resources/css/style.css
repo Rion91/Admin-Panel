@@ -15,8 +15,6 @@
 }
 
 body {
-    color: var(--dark);
-    background-color: var(--white-color);
     position: relative;
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
@@ -27,8 +25,14 @@ body {
     color: var(--white-color);
 }
 
+
 .card {
     border-radius: 0.25rem !important;
+}
+body.authentication-bg {
+    background-image: url("/public/images/bg-pattern-light.svg");
+    background-size: cover;
+    background-position: top center;
 }
 
 a {

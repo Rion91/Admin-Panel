@@ -17,14 +17,16 @@
     <!-- Scripts -->
     @vite(['resources/css/style.css', 'resources/css/app.css'])
     @vite(['resources/js/app.js', 'resources/js/script.js'])
+    @yield('css-content')
 
 </head>
 
-<body>
+<body class="authentication-bg">
 <div>
-    <main class="py-4">
+    <main>
         @yield('content')
     </main>
 </div>
+@stack('script')
 </body>
 </html>
