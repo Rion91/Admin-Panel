@@ -14,8 +14,7 @@
                             </div>
                         @endif
 
-                            <img src="{{ asset('favicon/user.png') }}" width="100" height="100" alt="">
-                        <div class="d-flex mt-2">
+                        <div class="d-flex mt-2 mb-5 text-center">
                             <button class="btn btn-primary me-1">Primary</button>
                             <button class="btn btn-info me-1">Info</button>
                             <button class="btn btn-success me-1">Success</button>
@@ -24,6 +23,14 @@
                             <button class="btn btn-secondary me-1">Secondary</button>
                             <button class="btn btn-dark me-1">Dark</button>
                         </div>
+
+                        <span class="badge badge-primary">Primary</span>
+                        <span class="badge badge-info">Info</span>
+                        <span class="badge badge-success">Success</span>
+                        <span class="badge badge-warning">Warning</span>
+                        <span class="badge badge-danger">Danger</span>
+                        <span class="badge badge-secondary">Secondary</span>
+                        <span class="badge badge-dark">Dark</span>
 
                     </div>
                 </div>

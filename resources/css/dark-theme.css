@@ -26,10 +26,10 @@
     background-color: var(--body-color);
 }
 
-/*.dark-theme .l-navbar {*/
-/*    color: var(--white-color);*/
-/*    background-color: var(--dark);*/
-/*}*/
+.dark-theme .l-navbar {
+    color: var(--white-color);
+    background-color: #043346;
+}
 
 .dark-theme .header {
     color: var(--white-color);

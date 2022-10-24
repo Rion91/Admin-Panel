@@ -21,19 +21,23 @@ body {
     font-size: var(--normal-font-size);
     transition: .5s;
 }
+
 #theme-toggle {
     color: var(--white-color);
 }
 
-
 .card {
     border-radius: 0.25rem !important;
 }
+
+/*background image for login page*/
 body.authentication-bg {
     background-image: url("/public/images/bg-pattern-light.svg");
     background-size: cover;
     background-position: top center;
 }
+
+/*end*/
 
 a {
     text-decoration: none !important;
@@ -158,6 +162,7 @@ a {
     color: #0e1726;
     background: var(--white-color);
 }
+
 .nav_icon {
     line-height: 30px !important;
     background: #3a3f48;
@@ -166,6 +171,7 @@ a {
     text-align: center;
     border-radius: 8px;
 }
+
 .dropdown-menu {
     border: 0 !important;
     border-radius: 3px !important;
@@ -221,4 +227,45 @@ a {
     .body-padding {
         padding-left: 0 !important;
     }
+}
+
+/*badge*/
+.badge {
+    line-height: 1.4 !important;
+    padding: 3px 6px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    border-radius: 0.25rem !important;
+}
+
+.badge-pills {
+    border-radius: 30px !important;
+}
+
+.badge-primary {
+    background-color: var(--primary) !important;
+}
+
+.badge-info {
+    background-color: var(--info) !important;
+}
+
+.badge-success {
+    background-color: var(--success) !important;
+}
+
+.badge-warning {
+    background-color: var(--warning) !important;
+}
+
+.badge-danger {
+    background-color: var(--danger) !important;
+}
+
+.badge-secondary {
+    background-color: var(--secondary) !important;
+}
+
+.badge-dark {
+    background-color: var(--dark) !important;
 }
