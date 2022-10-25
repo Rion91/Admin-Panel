@@ -1,7 +1,7 @@
 :root {
     --white-color: #ffffff;
     --side-bar-color: #2c2e3f;
-    --header-color: #424d58;
+    --dark-main-color: #424d58;
     --body-color: #343A3F;
 }
 
@@ -37,7 +37,7 @@
 .dark-theme .table-active,
 .dark-theme #myChart {
     color: var(--white-color);
-    background-color: var(--header-color);
+    background-color: var(--dark-main-color);
 }
 
 .dark-theme .apexcharts-menu-item {
@@ -55,5 +55,5 @@
 }
 
 .dark-theme .l-navbar {
-    background-color: var(--side-bar-color);
+    background-color: var(--dark-main-color);
 }

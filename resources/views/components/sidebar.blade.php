@@ -2,8 +2,7 @@
     <nav class="nav">
         <div>
             <a href="#" class="nav_logo">
-                <img src="{{ asset('logo/airplay2.svg') }}" alt="">
-{{--                <img src="{{ asset('logo/airplay.svg') }}" alt="">--}}
+                <img src="{{ asset('logo/airplay.svg') }}" alt="">
                 <span class="nav_logo-name">Admin Panel</span>
             </a>
             <div class="nav_list">
