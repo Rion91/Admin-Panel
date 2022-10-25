@@ -1,5 +1,5 @@
 <div class="row mb-4">
-    <div class="col-xl-3 col-lg-4 col-12 col-md-3 my-1">
+    <div class="col-xl-3 col-lg-3 col-12 col-md-6 my-1">
         <!--start card-->
         <div class="card shadow-lg p-2">
             <div class="card-body">
@@ -19,7 +19,7 @@
         <!--end card-->
     </div>
 
-    <div class="col-xl-3 col-lg-4 col-12 col-md-3 my-1">
+    <div class="col-xl-3 col-lg-3 col-12 col-md-6 my-1">
         <!--start card-->
         <div class="card shadow-lg p-2">
             <div class="card-body">
@@ -39,7 +39,7 @@
         <!--end card-->
     </div>
 
-    <div class="col-xl-3 col-lg-4 col-12 col-md-3 my-1">
+    <div class="col-xl-3 col-lg-3 col-12 col-md-6 my-1">
         <!--start card-->
         <div class="card shadow-lg p-2">
             <div class="card-body">
@@ -59,7 +59,7 @@
         <!--end card-->
     </div>
 
-    <div class="col-xl-3 col-lg-4 col-12 col-md-3 my-1">
+    <div class="col-xl-3 col-lg-3 col-12 col-md-6 my-1">
         <!--start card-->
         <div class="card shadow-lg p-2">
             <div class="card-body">

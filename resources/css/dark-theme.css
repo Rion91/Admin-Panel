@@ -31,28 +31,13 @@
     background-color: var(--first-color);
 }
 
-.dark-theme .header {
+.dark-theme .header,
+.dark-theme .card,
+.dark-theme .table,
+.dark-theme .table-active,
+.dark-theme #myChart{
     color: var(--white-color);
     background-color: var(--header-color);
-}
-
-.dark-theme .card {
-    color: var(--white-color);
-    background-color: var(--header-color);
-}
-
-.dark-theme .table {
-    color: var(--white-color);
-    background-color: var(--header-color);
-}
-.dark-theme .table-active {
-    color: var(--white-color);
-    background-color: var(--side-bar-color);
-}
-
-.dark-theme #myChart {
-    color: var(--white-color);
-    background-color: var(--side-bar-color);
 }
 
 .dark-theme .apexcharts-menu-item {

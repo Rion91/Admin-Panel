@@ -22,7 +22,7 @@
 
             <div class="col-md-6 col-12 my-1">
                 <div class="card shadow-lg">
-                    <div class="card-body">
+                    <div class="card-body p-1">
                         <div>
                             <canvas id="myChart"></canvas>
                         </div>
@@ -35,7 +35,7 @@
         <div class="row">
             <div class="col-md-12 col-12 my-1">
                 <div class="card shadow-lg">
-                    <div class="card-body">
+                    <div class="card-body p-0">
                         <div>
                             <div id="chart"></div>
                         </div>
@@ -78,7 +78,7 @@
                     target: 'origin',
                     above: 'rgb(67,172,172)'
                 },
-                pointRadius: 0,
+                // pointRadius: 0,
             }]
         };
 
