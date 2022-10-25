@@ -233,6 +233,9 @@ a {
         padding-left: calc(var(--nav-width));
         padding-right: 0;
     }
+    #header-toggle {
+        padding-left: 5px;
+    }
 
     .body-pd .header_toggle {
         padding-left: 0.5rem;

@@ -44,20 +44,16 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="{{ asset('logo/box.svg') }}" alt="">
-                        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{{ asset('logo/box.svg') }}" alt="">
                     </div>
                 </div>
             </div>
-
-
-
         </div>
+
     </div>
 @endsection
 @push('script')
