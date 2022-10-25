@@ -4,10 +4,11 @@
     --first-color: #3A444E;
     --first-color-light: #8391a2;
     --white-color: #f9f9f9;
-    --body-font: 'Nunito', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
     --normal-font-size: 1rem;
     --z-fixed: 100;
     --dark: #4b4b48;
+    --black: #080707;
     --box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
     --box-shadow-hover: 0 1px 1px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 50%);
 }
@@ -19,9 +20,11 @@
 body {
     position: relative;
     margin: var(--header-height) 0 0 0;
-    font-family: var(--body-font);
+    font-family: var(--body-font) !important;
     font-size: var(--normal-font-size);
     transition: .5s;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 #theme-toggle {
@@ -80,10 +83,20 @@ a {
     left: -30%;
     width: var(--nav-width);
     height: 100vh;
-    background-color: var(--first-color);
+    background-color: #fff;
     padding: .5rem 1rem 0 0;
     transition: .5s;
-    z-index: var(--z-fixed)
+    z-index: var(--z-fixed);
+}
+
+.active {
+    color: #64C5B1 !important;
+}
+
+.nav_logo-name {
+    font-size: 1.3rem;
+    color: #64C5B1;
+    font-weight: 520;
 }
 
 .nav {
@@ -100,7 +113,11 @@ a {
     align-items: center;
     column-gap: 1.5rem;
     padding: .5rem 0 .5rem 1rem;
-    color: var(--dark);
+    color: var(--black);
+}
+
+.nav_link:hover {
+    color: #64C5B1 !important;
 }
 
 .nav_logo {
@@ -114,13 +131,7 @@ a {
 }
 
 .nav_name {
-    font-size: 1.3rem;
-}
-
-.nav_logo-name {
-    font-size: 23px;
-    color: var(--white-color);
-    font-weight: 700;
+    font-size: 1rem;
 }
 
 .nav_link {
@@ -156,10 +167,6 @@ a {
     padding-right: 0.6rem;
 }
 
-.active {
-    color: var(--white-color)
-}
-
 .active::before {
     /*content: '';*/
     position: absolute;
@@ -172,7 +179,7 @@ a {
 
 .nav_icon {
     line-height: 30px !important;
-    background: #3a3f48;
+    /*background: #3a3f48;*/
     width: 2rem;
     height: 2rem;
     text-align: center;
@@ -205,7 +212,7 @@ a {
 
     .l-navbar {
         left: 0;
-        padding: 0.3rem 1rem 0 0
+        padding: 0.3rem 1rem 0 0;
     }
 
     .show-nav {
