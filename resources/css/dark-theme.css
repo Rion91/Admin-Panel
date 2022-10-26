@@ -57,3 +57,13 @@
 .dark-theme .l-navbar {
     background-color: var(--dark-main-color);
 }
+
+.dark-theme .apexcharts-tooltip-title {
+    color: var(--white-color) !important;
+    background-color: var(--side-bar-color) !important;
+}
+
+.dark-theme .apexcharts-tooltip {
+    color: var(--white-color);
+    background: rgba(30, 30, 30, 0.8) !important;
+}
