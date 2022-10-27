@@ -13,6 +13,8 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/bs-datepicker.css') }}">
+
 
     <!-- Scripts -->
     @vite(['resources/css/style.css', 'resources/css/app.css', 'resources/css/btn.css', 'resources/css/dark-theme.css'])
@@ -67,6 +69,8 @@
     </main>
 </div>
 
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/bs-datepicker.js') }}"></script>
 @stack('script')
 <script>
     var toggle_icon = document.getElementById('theme-toggle');

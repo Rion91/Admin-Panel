@@ -45,26 +45,32 @@
         </div>
 
         <div class="row">
-            {{--            <div class="col-md-12">--}}
-            {{--                <div class="card">--}}
-            {{--                    <div class="card-body">--}}
-            {{--                        <img src="{{ asset('logo/box.svg') }}" alt="">--}}
-            {{--                    </div>--}}
-            {{--                </div>--}}
-            {{--            </div>--}}
+            <div class="col-md-5 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="">Date of birth</label>
+                            <input type="text" class="form-control start" id="start_date" placeholder="Date"
+                                   name="start">
+                        </div>
 
-{{--            <div class="col-md-3 col-12 col-xl-3">--}}
-{{--                <div class="card p-3 shadow-lg" style="border-radius: 50px !important;">--}}
-{{--                    <div class="card-body text-center">--}}
-{{--                        <img src="https://beautifull.netlify.app/images/wheat.webp" width="100" height="100" class="rounded-5" alt="">--}}
-
-{{--                        <h5 class="fw-semibold my-4">Wheat</h5>--}}
-
-{{--                        <p class="text-center text-muted px-2 m-0">Our wheat is of high quality by planting organically without chemical fertilizers. Our wheat is high in fiber and carbohydrates.</p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
+                    </div>
+                </div>
+            </div>
         </div>
+
+        {{--            <div class="col-md-3 col-12 col-xl-3">--}}
+        {{--                <div class="card p-3 shadow-lg" style="border-radius: 50px !important;">--}}
+        {{--                    <div class="card-body text-center">--}}
+        {{--                        <img src="https://beautifull.netlify.app/images/wheat.webp" width="100" height="100" class="rounded-5" alt="">--}}
+
+        {{--                        <h5 class="fw-semibold my-4">Wheat</h5>--}}
+
+        {{--                        <p class="text-center text-muted px-2 m-0">Our wheat is of high quality by planting organically without chemical fertilizers. Our wheat is high in fiber and carbohydrates.</p>--}}
+        {{--                    </div>--}}
+        {{--                </div>--}}
+        {{--            </div>--}}
+    </div>
 
     </div>
 @endsection
@@ -72,6 +78,12 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 
+    <script>
+        $(document).ready(function () {
+            console.log('test')
+            $('.start').datepicker({format: 'dd-mm-yyyy',});
+        })
+    </script>
     {{--chart.js--}}
     <script>
         const labels = [
