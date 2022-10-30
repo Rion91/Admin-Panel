@@ -68,7 +68,7 @@
                 <div class="card login-card border-0 shadow-sm">
 
                     <div class="card-header py-4 text-center bg-blue">
-                        <img src="{{ asset('logo/logo.png') }}" alt="" height="18">
+                        <img src="{{ asset('icons/icons.png') }}" alt="" height="18">
                     </div>
 
                     <div class="card-body p-5">

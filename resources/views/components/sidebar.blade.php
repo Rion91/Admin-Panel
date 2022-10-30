@@ -2,12 +2,12 @@
     <nav class="nav">
         <div>
             <a href="#" class="nav_logo">
-                <img src="{{ asset('logo/airplay.svg') }}" alt="">
+                <img src="{{ asset('icons/airplay.svg') }}" alt="">
                 <span class="nav_logo-name">Admin Panel</span>
             </a>
             <div class="nav_list">
                 <a href="#" class="nav_link active">
-                    <i class="fa fa-house-chimney nav_icon"></i>
+                    <i class="fa fa-house nav_icon"></i>
                     <span class="nav_name">Dashboard</span>
                 </a>
                 <a href="#" class="nav_link">
